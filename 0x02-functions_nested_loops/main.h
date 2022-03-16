@@ -1,4 +1,5 @@
-#include <stdlib.h>
-#include <unistd.h>
+#ifndef "main.h"
+#define "main.h"
 
-int _putchair(char c);
+int _putchar(char c);
+#endif
