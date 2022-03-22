@@ -1,12 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_array - print element of a array of intyegers
- * @a: A pointer to an int that will be changed
- * @n: return value n
- * Return: void which means correct
- */
+* print_array - print element of a array of intyegers
+* @a: A pointer to an int that will be changed
+* @n: return value n
+* Return: void which means correct
+*/
 
 void print_array(int *a, int n)
 
@@ -18,7 +17,7 @@ void print_array(int *a, int n)
 	{
 		printf("%d", a[b]);
 
-		if (i < n - 1)
+		if (b < n - 1)
 		{
 			printf(", ");
 		}
@@ -26,5 +25,5 @@ void print_array(int *a, int n)
 		b++;
 	}
 
-	printf('\n');
+	printf("\n");
 }
