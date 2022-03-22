@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * puts_half - print half of a string
- * @st: A pointer to an int that will be evaluated
- *
- * Return: void which mean is correct
- */
+* puts_half - print half of a string
+* @st: A pointer to an int that will be evaluated
+*
+* Return: void which mean is correct
+*/
 
 void puts_half(char *str)
 
@@ -15,7 +15,7 @@ void puts_half(char *str)
 	a = 0;
 	while (str[a] != '\0')
 	{
-		a++
+		a++;
 	}
 
 	last = (a + 1) / 2;
