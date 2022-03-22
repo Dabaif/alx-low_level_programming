@@ -15,7 +15,7 @@ void puts_half(char *str)
 	a = 0;
 	while (str[a] != '\0')
 	{
-		a++
+		a++;
 	}
 
 	last = (a + 1) / 2;
