@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: 1
- */
+* main - Entry point
+* Return: 1
+*/
 int main(void)
-	gcc -c ("and that piece of art is useful" - Dora Korpar, 2015-10-19/n");
-	return (0);
+{
+	gcc - c("and that piece of art is useful" - Dora Korpar, 2015 - 10 - 19"/n");
+	return (1);
+}
