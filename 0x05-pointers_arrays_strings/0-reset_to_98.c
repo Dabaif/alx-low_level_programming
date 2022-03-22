@@ -6,7 +6,7 @@
 *
 * Return: void that means is correct
 */
-int main void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
