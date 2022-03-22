@@ -1,12 +1,13 @@
 #include "main.h"
 #include <stdio.h>
-
-void reset_to_98(int *n); 
+ 
 /**
-* reset_to_98 -a function that takes a pointer to an int
-* @n: number.
-* Return:Always 0.
+* reset_to_98 - update a integer value 98
+* @n: A pointer to an int that will be updated
+*
+* Return: void that means is correct
 */
+
 {
 *n = 98;
 return (0);
