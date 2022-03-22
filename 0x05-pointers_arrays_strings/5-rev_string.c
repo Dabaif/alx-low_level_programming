@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *
- *
- *
- */
+* rev_string - reverse a string
+* @s: value to be changed
+* Return: void which means correct
+*/
 void rev_string(char *s)
 {
 	int len = 0;
