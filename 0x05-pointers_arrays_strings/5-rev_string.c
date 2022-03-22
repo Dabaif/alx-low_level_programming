@@ -1,10 +1,10 @@
+#include "main.h"
 #include <stdio.h>
-#include "holberton.h"
 /**
-* rev_string - update value.
-* @s: value to be evaluate.
-* Return: not.
-*/
+ *
+ *
+ *
+ */
 void rev_string(char *s)
 {
 	int len = 0;
@@ -13,6 +13,7 @@ void rev_string(char *s)
 	int e = 0;
 	int x;
 	char n;
+
 	while (*y != '\0')
 	{
 		y++;
